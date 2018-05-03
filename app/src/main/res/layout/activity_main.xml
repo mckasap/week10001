@@ -15,4 +15,12 @@
         android:layout_centerHorizontal="true"
         android:onClick="OpenAlert"
         android:text="Alert Goster" />
+
+    <WebView
+        android:id="@+id/myWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnAlert"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp" />
 </RelativeLayout>
